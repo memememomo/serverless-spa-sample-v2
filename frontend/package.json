@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "sst-env -- next dev",
+    "devf": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-components": "^1.9.6",
+    "@aws-amplify/ui-react": "v1",
+    "@emotion/cache": "^11.10.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.10.1",
+    "aws-amplify": "^4.3.10",
+    "next": "12.2.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.20.5",
+    "react-is": "^17.0.2",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.0",
+    "@serverless-stack/static-site-env": "^0.50.1",
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.33",
+    "eslint": "7",
+    "eslint-config-next": "12.0.1",
+    "typescript": "4.4.4"
+  }
+}

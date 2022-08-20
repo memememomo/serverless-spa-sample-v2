@@ -1,0 +1,5 @@
+{
+  "name": "my-sst-app-ts",
+  "region": "ap-northeast-1",
+  "main": "stacks/index.ts"
+}
